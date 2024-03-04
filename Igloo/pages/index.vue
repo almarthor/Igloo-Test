@@ -3,7 +3,7 @@
         <Nav/>
     </div>
     <div>
-        <Sidebar2/>
+        <Sidebar/>
         <BilaComp/>
         <BilaComp/>
         <BilaComp/>

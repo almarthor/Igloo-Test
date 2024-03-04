@@ -2,7 +2,6 @@
 <template>
     
     <div class="w-fit md:pl-16 pr-0 ml-4 lg:ml-80 mt-16 items-center mr-7">
-        
         <div class="shadow-md border w-full overflow-hidden mb-5 cursor-pointer h-auto rounded-md">
           <div class="md:flex mac-h-full inline-block">
             <div class=" col-auto justify-end md:w-[500px] w-auto">
@@ -61,8 +60,5 @@
           </div>
           
         </div>
-        <!--Carcard-->
     </div>
-     <!--Card-->
-
 </template>

@@ -1,11 +1,7 @@
 
 <template>
 	<div id="app">
-		<!--Sidebar with Dimmer -->
-		
-			<!-- Sidebar -->
 			<div class=" fixed flex top-0 h-screen z-20 text-white " :class="[right ? 'right-0 flex-row' : 'left-0 flex-row-reverse']">
-				<!--Drawer -->
 				<button
 					@click.prevent="toggle()"
 					class="w-10 h-32 p-1 my-auto rounded text-white bg-opacity-75 bg-purple-500 text-center focus:outline-none hover:bg-blue-200 transition-color duration-300">
@@ -13,8 +9,6 @@
 						Leita
 					</span>
 				</button>
-
-				<!-- Sidebar Content -->
 				<div ref="content" class="transition-all duration-700 bg-slate-400 overflow-hidden  items-center justify-center" :class="[open ? 'max-w-lg' : 'max-w-0']">
                     <div class="ml-4 mt-44">
 					    <div class="w-48 font-bold text-xl flex font-serif text-purple-500">Leita</div>
@@ -57,7 +51,6 @@
 			</div>
 
 			<transition name="fade">
-				<!-- Dimmer -->
 				<div
 					v-if="dimmer && open"
 					@click="toggle()"
