@@ -1,12 +1,9 @@
-
 <template>
-    
     <div class="w-fit md:pl-16 pr-0 ml-4 lg:ml-80 mt-16 items-center mr-7">
         <div class="shadow-md border w-full overflow-hidden mb-5 cursor-pointer h-auto rounded-md">
           <div class="md:flex mac-h-full inline-block">
             <div class=" col-auto justify-end md:w-[500px] w-auto">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/1999_Ford_Focus_Zetec_1.8_Front.jpg" 
-            alt="" class=" w-auto h-4/6 m-4 shadow">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/1999_Ford_Focus_Zetec_1.8_Front.jpg" alt="" class=" w-auto h-4/6 m-4 shadow">
               <div class="mt-6 ml-4 flex">
                 <p class="mr-2 text-[14px]">J.</p>
                 <icon name="material-symbols:kid-star-outline-sharp" class=" mr-1 mt-1 text-slate-500"/>
@@ -58,7 +55,6 @@
                 </div>
             </div>
           </div>
-          
         </div>
     </div>
 </template>

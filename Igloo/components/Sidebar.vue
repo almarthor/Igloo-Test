@@ -49,16 +49,9 @@
                     </div>
 				</div>
 			</div>
-
 			<transition name="fade">
-				<div
-					v-if="dimmer && open"
-					@click="toggle()"
-					class="flex-1 bg-gray-400 bg-opacity-75 active:outline-none z-10"
-				/>
+				<div v-if="dimmer && open" @click="toggle()" class="flex-1 bg-gray-400 bg-opacity-75 active:outline-none z-10"/>
 			</transition>
-		
-
 	</div>
 </template>
 
