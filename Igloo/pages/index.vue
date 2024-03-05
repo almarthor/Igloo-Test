@@ -1,14 +1,13 @@
+
 <template> 
-    <div>
+    <div class=" bg-gray-100">
+        <div>
         <Nav/>
     </div>
     <div>
         <Sidebar/>
         <BilaComp/>
-        <BilaComp/>
-        <BilaComp/>
-        <BilaComp/>
-        <BilaComp/>
-        <BilaComp/>
+        <BilaApi/>
+    </div>
     </div>
 </template>

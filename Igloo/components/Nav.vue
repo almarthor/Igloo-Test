@@ -1,5 +1,5 @@
 <template>
-<div class="  z-50 shadow bg-slate-400 text-white ">
+<div class="  z-50 shadow bg-white ">
   <div class=" h-28 mx-auto px-8 flex items-center justify-between">
       <a class="text-3xl cursor-pointer z-50" href="/"><img src="https://myigloo.is/_nuxt/img/igloo.ed8bfb9.svg" alt=""></a>
       <ul class="flex items-center gap-5">

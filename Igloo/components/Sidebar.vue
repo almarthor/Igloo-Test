@@ -1,7 +1,7 @@
 
 <template>
 	<div id="app">
-			<div class=" fixed flex top-0 h-screen z-20 text-white " :class="[right ? 'right-0 flex-row' : 'left-0 flex-row-reverse']">
+			<div class=" fixed flex top-0 h-screen z-20 " :class="[right ? 'right-0 flex-row' : 'left-0 flex-row-reverse']">
 				<button
 					@click.prevent="toggle()"
 					class="w-10 h-32 p-1 my-auto rounded text-white bg-opacity-75 bg-purple-500 text-center focus:outline-none hover:bg-blue-200 transition-color duration-300">
@@ -9,18 +9,18 @@
 						Leita
 					</span>
 				</button>
-				<div ref="content" class="transition-all duration-700 bg-slate-400 overflow-hidden  items-center justify-center" :class="[open ? 'max-w-lg' : 'max-w-0']">
+				<div ref="content" class="transition-all duration-700 bg-white overflow-hidden  items-center justify-center" :class="[open ? 'max-w-lg' : 'max-w-0']">
                     <div class="ml-4 mt-44">
 					    <div class="w-48 font-bold text-xl flex font-serif text-purple-500">Leita</div>
                         <div class=" mt-2">
                             <p> location</p>
-                            <input placeholder="Staðsetning" class="mr-3 rounded-md text-black">
+                            <input placeholder="Staðsetning" class="bg-gray-100 border-2 border-purple-500 mr-3 rounded-md text-black">
                             
-                            <button class=" bg-purple-500 rounded-md p-1 mr-2">Staðfesta</button>
+                            <button class=" bg-purple-500 text-white rounded-md p-1 mr-2">Staðfesta</button>
                         </div>
                         <div class="flex flex-col mt-7 border-b border-purple-500 mr-3">
                             <Label for="dist" class="">Distance</Label>
-                            <select name="dist" id="dis" class="mr-6 h-7 bg-white rounded-md text-gray-400 mb-4 ">
+                            <select name="dist" id="dis" class="mr-6 h-7 border-2 border-purple-500 rounded-md text-gray-400 mb-4 ">
                                 <option value="">Akstur</option>
                                 <option value="">Undir 50.000 KM</option>
                                 <option value="">Yfir 50.000 KM </option>
@@ -45,7 +45,7 @@
                             <input type="checkbox" id="bein" name="extra" value="Beinskiptur" />
                             <label for="music">Beinskiptur</label>
                         </div>
-                        <button class="bg-purple-500 mt-5 rounded-md ml-3 p-2">Staðfesta</button>
+                        <button class="bg-purple-500 text-white mt-5 rounded-md ml-3 p-2">Staðfesta</button>
                     </div>
 				</div>
 			</div>
