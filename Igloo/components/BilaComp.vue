@@ -2,7 +2,7 @@
     <div class="w-fit xl:w-2/3 lg:w-11/12 md:w-fit pr-0 ml-10 xl:ml-96 lg:ml-24 mt-16 items-center shadow-sm mr-7 justify-items-center bg-white rounded-md">
         <div class=" border w-full overflow-hidden mb-5 cursor-pointer h-auto rounded-md">
           <div class="md:flex max-h-full inline-block">
-            <div class=" col-auto justify-end md:w-[500px] w-fit pr-2">
+            <div class=" col-auto justify-end md:w-[500px] w-fit">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/1999_Ford_Focus_Zetec_1.8_Front.jpg" alt="" class=" w-auto h-4/6 m-4 shadow">
               <div class="mt-6 ml-4 flex">
                 <p class="mr-2 text-[14px]">J.</p>
@@ -15,12 +15,12 @@
                 <p class=" bg-gray-50 rounded-xl p-1 m-0 text-[11px] ml-3">Individual</p>
               </div>
             </div>
-            <div class=" ml-2 p-4 flex flex-col w-full">
+            <div class=" p-4 flex flex-col w-full">
               <div class=" flex justify-between items-center">
                 <h1 class="font-bold text-xl text-[rgba(58,60,62,255)]">Ford Focus</h1>
                 <div class="flex">
                   <h1 class="mr-2 font-bold text-[rgba(58,60,62,255)]">800 000</h1>
-                  <p class=" font-mono text-[10px] mt-1 font-light">ISK</p>
+                  <p class=" font-mono text-[10px] mt-1 font-extralight leading-4.5">ISK</p>
                 </div>  
               </div>
               <div class="flex justify-between items-center">

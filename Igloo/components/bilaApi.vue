@@ -1,5 +1,5 @@
 <template>
-    <div v-for="product in products" class="w-fit xl:w-2/3 lg:w-11/12  md:w-fit pr-0 ml-10 xl:ml-96 lg:ml-24 mt-16 items-center shadow-sm mr-7 justify-items-center bg-white rounded-md">
+    <div v-for="product in products" class="w-fit xl:w-2/3 lg:w-11/12 md:w-fit pr-0 ml-10 xl:ml-96 lg:ml-24 mt-16 items-center shadow-sm mr-7 justify-items-center bg-white rounded-md">
         <div class=" border w-full overflow-hidden mb-5 cursor-pointer h-auto rounded-md">
           <div  class="md:flex max-h-full inline-block">
             <div class=" col-auto justify-end md:w-[500px] w-fit pr-2">
@@ -37,16 +37,11 @@
                 <div class="flex justify-between mt-3">
                   <div class="flex">
                     <p class=" text-xs text-neutral-600"><icon name="material-symbols-light:category-outline" class=" mr-1 text-lg"/>{{ product.category }}</p>
-                    <p class=" ml-6 text-xs text-neutral-600"><icon name="material-symbols:calendar-today-outline" class=" mr-1 text-lg"/>2018</p>
-                    <p class=" ml-6 text-xs text-neutral-600"><icon name="ph:gas-pump-light" class=" mr-1 text-lg" />Disel</p>
+                    
                   </div>
                   <div class="md:flex ">
                     <p class="text-xs">from 40 000 </p><p class="text-xs font-mono ml-1 mr-1">ISK</p><p class="text-xs"> monthly payment</p>
                   </div>
-                </div>
-                <div class="flex mt-3">
-                  <p class=" text-xs text-neutral-600"><icon name="icon-park-twotone:manual-gear" class=" text-lg mr-1"/>Manual</p>
-                  <p class="  ml-6 text-xs text-neutral-600"><icon name="uil:car-sideview" class=" text-lg mr-1"/>Sedan</p>
                 </div>
                 <div class="mt-5">
                   <p class=" text-xs text-neutral-600">Kópavogur</p>
