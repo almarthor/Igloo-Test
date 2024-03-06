@@ -1,8 +1,8 @@
 <template>
-    <div v-for="product in products" class="w-fit lg:w-2/4 md:w-4/5 pr-0 ml-6 lg:ml-96 mt-16 items-center mr-7 shadow-sm bg-white">
+    <div v-for="product in products" class="w-fit xl:w-2/3 lg:w-11/12  md:w-fit pr-0 ml-10 xl:ml-96 lg:ml-24 mt-16 items-center shadow-sm mr-7 justify-items-center bg-white rounded-md">
         <div class=" border w-full overflow-hidden mb-5 cursor-pointer h-auto rounded-md">
-          <div  class="md:flex mac-h-full inline-block">
-            <div class=" col-auto justify-between w-auto pr-2">
+          <div  class="md:flex max-h-full inline-block">
+            <div class=" col-auto justify-end md:w-[500px] w-fit pr-2">
                 <div class=" h-2/3">
                     <img :src="product.image" alt="" class="  w-auto h-36 m-4 shadow">
                 </div>

@@ -1,11 +1,9 @@
 <template>
-    <div class="w-fit lg:w-2/4 md:w-4/5 pr-0 ml-10 lg:ml-96 mt-16 items-center shadow-sm mr-7 justify-items-center bg-white rounded-md">
+    <div class="w-fit xl:w-2/3 lg:w-11/12 md:w-fit pr-0 ml-10 xl:ml-96 lg:ml-24 mt-16 items-center shadow-sm mr-7 justify-items-center bg-white rounded-md">
         <div class=" border w-full overflow-hidden mb-5 cursor-pointer h-auto rounded-md">
-          <div class="md:flex mac-h-full inline-block">
-            <div class=" col-auto justify-end md:w-[500px] w-auto pr-2">
-              
+          <div class="md:flex max-h-full inline-block">
+            <div class=" col-auto justify-end md:w-[500px] w-fit pr-2">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/1999_Ford_Focus_Zetec_1.8_Front.jpg" alt="" class=" w-auto h-4/6 m-4 shadow">
-              
               <div class="mt-6 ml-4 flex">
                 <p class="mr-2 text-[14px]">J.</p>
                 <icon name="material-symbols:kid-star-outline-sharp" class=" mr-1 mt-1 text-slate-500"/>
@@ -40,8 +38,8 @@
                     <p class=" ml-6 text-xs text-neutral-600"><icon name="material-symbols:calendar-today-outline" class=" mr-1 text-lg"/>2018</p>
                     <p class=" ml-6 text-xs text-neutral-600"><icon name="ph:gas-pump-light" class=" mr-1 text-lg" />Disel</p>
                   </div>
-                  <div class="md:flex ">
-                    <p class="text-xs">from 40 000 </p><p class="text-xs font-mono ml-1 mr-1">ISK</p><p class="text-xs"> monthly payment</p>
+                  <div class="md:flex">
+                    <p class="text-xs ">from 40 000 </p><p class=" text-xs font-mono ml-1 mr-1 font-light">ISK</p><p class="text-xs"> monthly payment</p>
                   </div>
                 </div>
                 <div class="flex mt-3">
